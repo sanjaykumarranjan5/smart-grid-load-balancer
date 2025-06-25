@@ -1,0 +1,21 @@
+
+{
+  "__inputs": [],
+  "__elements": [],
+  "title": "Smart Grid Substation Load",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Substation 1 Load",
+      "targets": [{"expr": "current_load", "legendFormat": "Substation 1"}]
+    },
+{
+      "type": "graph",
+      "title": "Substation 2  Load",
+      "targets": [{"expr": "current_load", "legendFormat": "Substation 2"}]
+    }
+  ],
+  "schemaVersion": 27,
+  "version": 1,
+  "overwrite": true
+}
